@@ -1,0 +1,25 @@
+{
+  "name": "imgresize",
+  "productName": "Image Resizer",
+  "version": "1.0.0",
+  "description": "app to resize image dimensions",
+  "main": "main.js",
+  "scripts": {
+    "start":"electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddor712/imgResize.git"
+  },
+  "author": "ddor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ddor712/imgResize/issues"
+  },
+  "homepage": "https://github.com/ddor712/imgResize#readme",
+  "dependencies": {
+    "electron": "^25.3.0",
+    "resize-img": "^2.0.0",
+    "toastify-js": "^1.12.0"
+  }
+}
